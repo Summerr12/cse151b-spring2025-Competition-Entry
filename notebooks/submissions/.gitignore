@@ -1,0 +1,16 @@
+# Ignore Lightning logs and checkpoints
+lightning_logs/
+*.ckpt
+
+# Ignore submissions folder
+submissions/
+
+# Python cache and Jupyter backups
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+
+# VSCode settings and macOS junk
+.vscode/
+.DS_Store
+
